@@ -45,6 +45,8 @@ alias gs "git status"
 alias gc "git checkout"
 alias gd "git diff"
 alias gfa "git fetch --all"
+alias grh "git reset --hard"
+alias gcm "git commit -m"
 
 alias tf terraform
 alias lz lazygit

@@ -41,16 +41,15 @@ alias dc docker-compose
 alias dk docker
 alias rand "echo (openssl rand -base64 32 | sed -e 's/=//')"
 
-alias gits "git status"
-alias gitc "git checkout"
-alias gitcm "git commit"
-alias gitfa "git fetch --all"
+alias gs "git status"
+alias gc "git checkout"
+alias gd "git diff"
+alias gfa "git fetch --all"
 
 alias tf terraform
 alias lz lazygit
 
 zoxide init fish | source
-set -g fish_user_paths "/usr/local/opt/python@3.8/bin" $fish_user_paths
 
 # Generated for envman. Do not edit.
 test -s "$HOME/.config/envman/load.fish"; and source "$HOME/.config/envman/load.fish"
@@ -89,4 +88,4 @@ source ~/.orbstack/shell/init2.fish 2>/dev/null || :
 fzf --fish | source
 
 # Added by Windsurf
-fish_add_path $HOME/.codeium/windsurf/bin
+set -gx PATH $PATH $HOME/.codeium/windsurf/bin

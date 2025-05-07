@@ -48,6 +48,7 @@ alias gfa "git fetch --all"
 alias grd "git reset --hard origin/dev"
 alias grm "git reset --hard origin/main"
 alias gcm "git commit -m"
+alias ghc "gh copilot"
 
 alias tf terraform
 alias lz lazygit

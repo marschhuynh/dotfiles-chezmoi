@@ -49,6 +49,7 @@ alias grd "git reset --hard origin/dev"
 alias grm "git reset --hard origin/main"
 alias gcm "git commit -m"
 alias ghc "gh copilot"
+alias update-aws-cred "pbpaste > ~/.aws/credentials"
 
 alias tf terraform
 alias lz lazygit

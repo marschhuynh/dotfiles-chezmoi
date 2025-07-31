@@ -6,6 +6,8 @@ set -gx JAVA_HOME /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 set NPM_PACKAGES "$HOME/.npm-packages"
 set PATH $PATH $NPM_PACKAGES/bin
 set MANPATH $NPM_PACKAGES/share/man $MANPATH
+set NPM_CONFIG_PREFIX ~/.npm-global
+
 
 set -gx ANDROID_HOME $HOME/Library/Android/sdk
 set -gx ANDROID_SDK_TOOLS $ANDROID_HOME/platform-tools
